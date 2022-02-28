@@ -1,5 +1,6 @@
 import os
 
+selected_dir = input("Enter folder Name: ")
 os.system("bash takelist.sh")
 
 first_file = open("first","r")
